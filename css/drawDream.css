@@ -1,0 +1,51 @@
+body{
+  margin: 0;
+  padding: 0;
+  /* canvasのなかにボタンを入れる */
+  position: relative;
+}
+#drawDream{
+  background-color: #fff8dc;
+  background-image:radial-gradient(#eee8aa 30%, transparent 30%);
+  background-size: 20px 20px;
+}
+
+.btn-social-giza a {
+  position: absolute;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 25px;
+}
+#btn-social-giza-arrow-down {
+  left: 60px;
+}
+#btn-social-giza-circle-left {
+  left: 120px;
+}
+#btn-social-giza-circle-right {
+  left: 180px;
+}
+
+.btn-social-giza .fa-stack-1x {
+  color: white;
+  font-size: 18px;
+}
+.btn-social-giza .fa-stack-2x {
+  transition: .3s;
+}
+.btn-social-giza #btn-social-giza-eraser .fa-stack-2x {
+  color: #008b8b;
+}
+.btn-social-giza #btn-social-giza-arrow-down .fa-stack-2x  {
+  color: #ff1493;
+}
+.btn-social-giza #btn-social-giza-circle-left .fa-stack-2x {
+  color: #4682b4;
+}
+.btn-social-giza #btn-social-giza-circle-right .fa-stack-2x  {
+  color: #4682b4;
+}
+.btn-social-giza a:hover .fa-stack-2x {
+  -webkit-transform: rotate(60deg);
+  transform: rotate(60deg);
+}
